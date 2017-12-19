@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TictacToe</title>
+	<title>comment</title>
 	<link rel="stylesheet"  href="css/main.css">
 	<link rel="stylesheet"  href="css/animate.css">
 	<link rel="stylesheet"  href="css/bootstrap.min.css">
+
 </head>
 <body>
-	<h1>LETS PLAY TICTACTOE GAME</h1>
- 	<table>
- 		<tr>
- 			<td class="cell" id="0"></td>
- 			<td class="cell" id="1"></td>
- 			<td class="cell" id="2"></td>
- 		</tr>
- 	
- 	
- 		<tr>
- 			<td class="cell" id="3"></td>
- 			<td class="cell" id="4"></td>
- 			<td class="cell" id="5"></td>
- 		</tr>
- 	
- 		<tr>
- 			<td class="cell" id="6"></td>
- 			<td class="cell" id="7"></td>
- 			<td class="cell" id="8"></td>
- 		</tr>
- 	</table>
- 	<div class="thipchi">
- 		<button class="btn btn-success" onClick="startGame()">Replay</button>
- 	</div>
- 	<div class="endgame">
- 		<div class="text"></div>
- 	</div>
- 	
+	
+	<div id="gone" class="yo container well well-lg">
+		<div class="col-sm-6 col-sm-offset-3"
+			<h3>Comment:</h3>
+
+			<input id="ming" class="form-control" type="name" placeholder="name"><br>
+			<textarea id="komento" class="form-control" rows="5" cols="50">
+
+			</textarea><br>
+			<button id="button" class="thipchi btn btn-primary">Add comment</button>
+
+		</div>
+	</div>
+		<div class="col-sm-6 col-sm-offset-3 well" id="result">
+			<i class="fa fa-user-o" aria-hidden="true" style = 'font-size:30px'></i>
+			<h3 id="header">
+				
+			</h3>
+			<p id="para"></p>
+		</div>
+	</body>
+
+ <script src="https://use.fontawesome.com/91ff1c32cc.js"></script>
  <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
  <script src="js/bootstrap.min.js"></script>
  <script src="js/main.js"></script>

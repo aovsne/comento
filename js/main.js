@@ -1,18 +1,19 @@
-var orgBoard
-const huPlayer = 'X'
-const aiPlayer = 'Y'
-const winCombos = [
-	[0,1,2],
-	[3,4,5],
-	[6,7,8],
-	[0,3,6],
-	[1,4,7],
-	[2,5,8]
-]
+var button = document.getElementById('button')
 
-const cells = document.querySelectorAll('.cell')
+button.addEventListener('click', function getInfo(){
+	var ming = document.getElementById('ming').value
+	var com = document.getElementById('komento').value
+	var main = document.getElementById('gone')
+	var result = document.getElementById('result')
+	var head = document.getElementById('header')
+	var par = document.getElementById('para')
 
-function startGame(){
-	document.querySelector('.endgame').style.display = 'none'
-	orgBoard = Array
+	gone.style.display = "none"
+	head.innerHTML = "Name: " + ming
+	par.innerHTML = "Comment: " + com
+	result.style.display = 'block'
+
 }
+)
+
+
